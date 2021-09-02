@@ -1,0 +1,39 @@
+.mainContent{
+    padding: 8rem 4rem;
+    height: 100vh;
+}
+/* .mainContent__headingSection{
+
+} */
+.mainContent__smalheading{
+    color: #716e6e;
+    font-size: 1.8rem;
+}
+.mainContent__mainHeading{
+    color: #0e2560;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.tabs{
+    list-style: none;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #fff;
+    border-radius: 4rem;
+    width: 80%;
+    margin-top: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.tabs li {
+    padding: 1.5rem 3rem;
+    font-size: 1.6rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+.tabActive{
+    background-color:#0e2560;
+    color: #fff;
+    border-radius: 3rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

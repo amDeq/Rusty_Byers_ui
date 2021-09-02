@@ -1,0 +1,50 @@
+.sidebar{
+    background-color: #5b679b;
+    height: 100vh;
+    border-radius: 0 2rem 2rem 0;
+    text-align: center;
+    display: grid;
+    /* grid-gap: 1rem; */
+}
+.iconColor{
+    color: #fff;
+}
+.sidebar__heading{
+    font-size: 3rem;
+    color: #fff;
+    text-align: left;
+    padding: 1rem 5rem;
+}
+.userProfile__Heading{
+    color: #fff;
+    font-size: 3rem;
+    text-transform: capitalize;
+}
+img{
+    width: 40%;
+}
+.barcodeImg{
+    background-color: #fff;
+    border-radius: 1rem;
+}
+.userOption{
+    list-style: none;
+}
+.userOption li{
+    padding: 1rem 0;
+   margin-left: 4rem;
+}
+.userOption li.active{
+    border-radius: 3rem 0 0 3rem;
+    background-color: #fff;
+
+}
+.userOption li.active a{
+    color: #5b679b;
+}
+.userOption li a{
+    text-decoration: none;
+    text-align: left;
+    color: #fff;
+    font-size: 2rem;
+}

@@ -1,0 +1,7 @@
+.mainSection{
+    min-height: 100vh;
+    background-color: #ecf0f1;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 2fr;
+}
